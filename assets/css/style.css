@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eef;
+}
+
+.cards {
+    width: 35%;
+    margin: 7px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfd7fe;
+    border: 2px solid #453fb0;
+    border-radius: 10px;
+}
+
+.text {
+    width: 300px;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.button {
+    width: 150px;
+    height: 60px;
+    display: block;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+.button:hover {
+    cursor: pointer;
+    width: 145px;
+    height: 56px;
+    margin-top: 8px;
+    transition: 0.3s;
+}
+
+#card1,
+#card2,
+#card3,
+#card4 {
+    width: 43%;
+    height: 25%;
+    margin: 10px;
+}
+
+.left_star {
+    position: fixed;
+    width: 120px;
+    top: 44%;
+    left: 12%;
+}
+
+.right_star {
+    position: fixed;
+    width: 130px;
+    top: 15%;
+    left: 77%;
+}
+
+@media(max-width:1024px) {
+    .left_star {
+        top: 24%;
+    }
+}
+
+@media(max-width:827px) {
+    .text {
+        margin-top: 5px;
+    }
+
+    .cards {
+        width: 53%;
+    }
+
+    .left_star {
+        left: 4%;
+    }
+
+    .right_star {
+        left: 81%;
+    }
+}
+
+@media(max-width:625px) {
+    .text {
+        margin-top: 25px;
+    }
+
+    .left_star {
+        left: 1%;
+    }
+}
+
+@media(max-width:546px) {
+    .text {
+        margin-top: 15px;
+    }
+
+    .cards {
+        width: 77%;
+    }
+
+    .left_star {
+        width: 50px;
+        top: 5%;
+        left: 3%;
+    }
+
+    .right_star {
+        width: 50px;
+        top: 5%;
+        left: 87%;
+    }
+}
+
+@media(max-width:376px) {
+    .text {
+        width: 250px;
+        margin-top: 25px;
+    }
+
+    .cards {
+        width: 95%;
+        margin-top: 30px;
+    }
+
+    .button {
+        margin-top: 30px;
+    }
+        .left_star {
+            width: 50px;
+            top: 1%;
+            left: 3%;
+        }
+    
+        .right_star {
+            width: 50px;
+            top: 5%;
+            left: 87%;
+        }
+}
+
