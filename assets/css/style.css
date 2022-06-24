@@ -126,7 +126,7 @@ body {
         left: 87%;
     }
 }
-@media(max-width:456px){
+@media(max-width:480px){
 .text{
     margin-top: 27px;
 }
