@@ -137,7 +137,7 @@ body {
 @media(max-width:376px) {
     .text {
         width: 250px;
-        margin-top: 25px;
+        margin-top: 65px;
     }
 
     .cards {
