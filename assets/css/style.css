@@ -84,15 +84,17 @@ body {
 
 @media(max-width:827px) {
     .cards {
-        width: 53%;
+        width: 93%;
     }
 
     .left_star {
         left: 4%;
+        top: 2%;
     }
 
     .right_star {
         left: 81%;
+        top: 85%;
     }
 
     .button:hover {
@@ -101,20 +103,20 @@ body {
 }
 
 @media(max-width:625px) {
-    .cards {
-        width: 77%;
+    .text {
+        width: 400px;
     }
 
     .left_star {
         width: 50px;
-        top: 5%;
-        left: 3%;
+        top: 15%;
+        left: 10%;
     }
 
     .right_star {
         width: 50px;
-        top: 5%;
-        left: 87%;
+        top: 80%;
+        left: 73%;
     }
 }
 
@@ -128,14 +130,12 @@ body {
     }
 
     .left_star {
-        width: 50px;
-        top: 7%;
-        left: 2%;
+        top: 26%;
+        left: 8%;
     }
 
     .right_star {
-        width: 50px;
-        top: 85%;
-        left: 78%;
+        top: 68%;
+        left: 75%;
     }
 }
