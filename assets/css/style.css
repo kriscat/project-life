@@ -9,6 +9,9 @@ html {
 
 body {
     min-height: 100%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #eef;
 }
 
@@ -46,9 +49,7 @@ body {
 
 .button:hover {
     cursor: pointer;
-    width: 145px;
-    height: 56px;
-    margin-top: 8px;
+    width: 158px;
     transition: 0.3s;
 }
 
@@ -104,12 +105,6 @@ body {
         margin-top: 25px;
     }
     
-    .button:hover{
-         margin-top: 7px;
-      width: 150px;
-    height: 60px;
-    }
-
     .left_star {
         left: 1%;
     }
@@ -137,18 +132,11 @@ body {
     }
     
 }
-@media(max-width:500px){
-.text{
-    margin-top: 37px;
-}
-.cards, .button{
-    margin-top: 30px;
-}
-}
+
 @media(max-width:376px) {
     .text {
         width: 250px;
-        margin-top: 65px;
+        margin-top: 25px;
     }
 
     .cards {
