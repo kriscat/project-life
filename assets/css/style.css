@@ -88,13 +88,11 @@ body {
     }
 
     .left_star {
-        left: 4%;
-        top: 2%;
+        display: none;
     }
 
     .right_star {
-        left: 81%;
-        top: 85%;
+       display: none;
     }
 
     .button:hover {
@@ -105,14 +103,6 @@ body {
 @media(max-width:625px) {
     .text {
         width: 400px;
-    }
-
-    .left_star {
-        display: none;
-    }
-
-    .right_star {
-        display: none;
     }
 }
 
