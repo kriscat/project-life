@@ -103,6 +103,12 @@ body {
     .text {
         margin-top: 25px;
     }
+    
+    .button:hover{
+         margin-top: 7px;
+      width: 150px;
+    height: 60px;
+    }
 
     .left_star {
         left: 1%;
@@ -129,10 +135,7 @@ body {
         top: 5%;
         left: 87%;
     }
-    .button:hover{
-      width: 150px;
-    height: 60px;
-    }
+    
 }
 @media(max-width:500px){
 .text{
