@@ -117,12 +117,14 @@ body {
 
     .left_star {
          display: block;
+        width: 50px;
         top: 3%;
         left: 8%;
     }
 
     .right_star {
          display: block;
+          width: 50px;
         top: 88%;
         left: 75%;
     }
