@@ -108,15 +108,11 @@ body {
     }
 
     .left_star {
-        width: 50px;
-        top: 15%;
-        left: 10%;
+        display: none;
     }
 
     .right_star {
-        width: 50px;
-        top: 80%;
-        left: 73%;
+        display: none;
     }
 }
 
@@ -130,11 +126,13 @@ body {
     }
 
     .left_star {
+         display: block;
         top: 3%;
         left: 8%;
     }
 
     .right_star {
+         display: block;
         top: 88%;
         left: 75%;
     }
