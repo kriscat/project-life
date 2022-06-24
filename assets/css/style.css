@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     height: 100%;
 }
 
 body {
     min-height: 100%;
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #eef;
@@ -17,7 +18,7 @@ body {
 
 .cards {
     width: 35%;
-    margin: 7px auto;
+    margin: 5px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -30,7 +31,6 @@ body {
 .text {
     width: 300px;
     display: block;
-    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -40,7 +40,7 @@ body {
     width: 150px;
     height: 60px;
     display: block;
-    margin-top: 7px;
+    margin-top: 6px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -83,10 +83,6 @@ body {
 }
 
 @media(max-width:827px) {
-    .text {
-        margin-top: 5px;
-    }
-
     .cards {
         width: 53%;
     }
@@ -98,23 +94,13 @@ body {
     .right_star {
         left: 81%;
     }
+
+    .button:hover {
+        width: 150px;
+    }
 }
 
 @media(max-width:625px) {
-    .text {
-        margin-top: 25px;
-    }
-    
-    .left_star {
-        left: 1%;
-    }
-}
-
-@media(max-width:546px) {
-    .text {
-        margin-top: 55px;
-    }
-
     .cards {
         width: 77%;
     }
@@ -130,33 +116,26 @@ body {
         top: 5%;
         left: 87%;
     }
-    
 }
 
 @media(max-width:376px) {
     .text {
         width: 250px;
-        margin-top: 25px;
     }
 
     .cards {
         width: 95%;
-        margin-top: 30px;
     }
 
-    .button {
-        margin-top: 30px;
+    .left_star {
+        width: 50px;
+        top: 7%;
+        left: 2%;
     }
-        .left_star {
-            width: 50px;
-            top: 1%;
-            left: 3%;
-        }
-    
-        .right_star {
-            width: 50px;
-            top: 5%;
-            left: 87%;
-        }
+
+    .right_star {
+        width: 50px;
+        top: 85%;
+        left: 78%;
+    }
 }
-
