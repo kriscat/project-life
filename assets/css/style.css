@@ -126,7 +126,14 @@ body {
         left: 87%;
     }
 }
-
+@media(max-width:456px){
+.text{
+    margin-top: 27px;
+}
+.cards, .button{
+    margin-top: 20px;
+}
+}
 @media(max-width:376px) {
     .text {
         width: 250px;
